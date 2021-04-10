@@ -10,7 +10,7 @@ nav {
   nav a {
     color: #fff; }
     nav a:hover {
-      margin-bottom: -8px;
+      margin-bottom: -px;
       border-bottom: 2px solid #fff; }
   nav ul {
     list-style: none;
