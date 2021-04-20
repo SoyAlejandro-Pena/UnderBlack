@@ -1,56 +1,9 @@
-nav {
-    width: 100%;
-    
-    a:link, a:visited, a:active {
-      text-decoration:none;
-    } 
+@import "_mixin";
 
-    a {
-      color: #fff;
-
-      &:hover {
-        margin-bottom: -7px;
-        border-bottom: 2px solid #fff;
-      }
+header{ 
+    height: 800px;
+    background-color: #F2F4F4;
+    .nav-Center {
+        @extend %CentrarContenido
     }
-
-    ul {
-        list-style: none;
-        height: 60px;
-        background-color: #000;
-        font-size: 0;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        color: #fff;
-        margin-bottom: 0rem;
-      }
-      
-      li {
-        text-align: center;
-        display: inline;
-        font-size: 25px; 
-        padding: 0px 40px;      
-      }
-    
-      
-      ul {
-       ul {
-        position: absolute;
-        display: none;
-        }
-      } 
-      
-      ul {
-         ul { 
-            li { 
-                display: block;
-            }
-          }
-      }
-      
-      ul li:hover ul {
-        display: block;
-      }
 }
-

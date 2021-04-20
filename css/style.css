@@ -3,34 +3,19 @@
   padding: 0px;
   margin: 0px; }
 
-nav {
-  width: 100%; }
-  nav a:link, nav a:visited, nav a:active {
-    text-decoration: none; }
-  nav a {
-    color: #fff; }
-    nav a:hover {
-      margin-bottom: -px;
-      border-bottom: 2px solid #fff; }
-  nav ul {
-    list-style: none;
-    height: 60px;
-    background-color: #000;
-    font-size: 0;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    color: #fff;
-    margin-bottom: 0rem; }
-  nav li {
-    text-align: center;
-    display: inline;
-    font-size: 25px;
-    padding: 0px 40px; }
-  nav ul ul {
-    position: absolute;
-    display: none; }
-  nav ul ul li {
-    display: block; }
-  nav ul li:hover ul {
-    display: block; }
+header .nav-Center, .col.colH1-Center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+header {
+  height: 800px;
+  background-color: #F2F4F4; }
+
+header .nav-Center, .col.colH1-Center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.col.colH1-Center {
+  height: 100px; }

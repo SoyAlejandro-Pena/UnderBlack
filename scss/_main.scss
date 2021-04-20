@@ -1,0 +1,6 @@
+@import "_mixin";
+
+.col.colH1-Center {
+    @extend %CentrarContenido;
+    height: 100px;
+}
