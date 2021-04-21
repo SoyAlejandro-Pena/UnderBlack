@@ -1,6 +1,25 @@
-@import "_mixin";
+@import "mixin";
 
 .col.colH1-Center {
     @extend %CentrarContenido;
     height: 100px;
 }
+
+.carousel-indicators {
+  margin-bottom: 0;
+}
+
+.carouselProductos {
+  justify-content: space-evenly;
+}
+
+.contenedorPreguntas {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  height: 200px;
+  .colPreguntas {
+    @extend %CentrarContenido;
+    text-align: center;
+  }
+}
+

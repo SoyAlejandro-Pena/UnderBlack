@@ -3,7 +3,7 @@
   padding: 0px;
   margin: 0px; }
 
-header .nav-Center, .col.colH1-Center {
+header .nav-Center, .col.colH1-Center, .contenedorPreguntas .colPreguntas {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -12,10 +12,23 @@ header {
   height: 800px;
   background-color: #F2F4F4; }
 
-header .nav-Center, .col.colH1-Center {
+header .nav-Center, .col.colH1-Center, .contenedorPreguntas .colPreguntas {
   display: flex;
   justify-content: center;
   align-items: center; }
 
 .col.colH1-Center {
   height: 100px; }
+
+.carousel-indicators {
+  margin-bottom: 0; }
+
+.carouselProductos {
+  justify-content: space-evenly; }
+
+.contenedorPreguntas {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  height: 200px; }
+  .contenedorPreguntas .colPreguntas {
+    text-align: center; }
