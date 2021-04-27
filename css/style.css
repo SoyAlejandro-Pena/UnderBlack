@@ -3,19 +3,41 @@
   padding: 0px;
   margin: 0px; }
 
-header .nav-Center, .col.colH1-Center, .contenedorPreguntas .colPreguntas {
+.col.colH1-Center, .contenedorPreguntas .colPreguntas, .contenedorPreguntas .colPreguntasDre {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.contenedorPreguntas .colPreguntas, .contenedorPreguntas .colPreguntasDre {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 80%; }
 
 header {
-  height: 800px;
-  background-color: #F2F4F4; }
+  height: 1000px;
+  background-color: #F2F4F4;
+  font-size: 24px; }
+  header .mayorista {
+    color: #fff;
+    background-color: #000;
+    height: 30px; }
+    header .mayorista h3 {
+      font-size: 20px;
+      margin-top: 1px; }
+  header .container-fluid {
+    width: 35%; }
+    header .container-fluid a {
+      color: #000; }
 
-header .nav-Center, .col.colH1-Center, .contenedorPreguntas .colPreguntas {
+.col.colH1-Center, .contenedorPreguntas .colPreguntas, .contenedorPreguntas .colPreguntasDre {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.contenedorPreguntas .colPreguntas, .contenedorPreguntas .colPreguntasDre {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 80%; }
 
 .col.colH1-Center {
   height: 100px; }
@@ -24,11 +46,46 @@ header .nav-Center, .col.colH1-Center, .contenedorPreguntas .colPreguntas {
   margin-bottom: 0; }
 
 .carouselProductos {
-  justify-content: space-evenly; }
+  justify-content: center; }
 
 .contenedorPreguntas {
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 70px;
   height: 200px; }
+  .contenedorPreguntas .rowPreguntas {
+    width: 80%; }
   .contenedorPreguntas .colPreguntas {
-    text-align: center; }
+    border-right: solid 1px #000; }
+  .contenedorPreguntas .colPreguntas .btn-Encuadro, .contenedorPreguntas .colPreguntasDre .btn-Encuadro {
+    padding: 40px 30px;
+    width: 240px;
+    height: 150px;
+    font-size: 20px;
+    margin: 0px 20px;
+    box-shadow: 0.1px 10px 17px -9px #000; }
+
+.cInsta {
+  margin-bottom: 20px;
+  height: 140px; }
+  .cInsta .colUserInsta {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .cInsta .colUserInsta .pUserInsta {
+      font-size: 40px;
+      margin-bottom: 2px; }
+
+.col.colH1-Center, .contenedorPreguntas .colPreguntas, .contenedorPreguntas .colPreguntasDre {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contenedorPreguntas .colPreguntas, .contenedorPreguntas .colPreguntasDre {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 80%; }
+
+.cRedes {
+  height: 100px;
+  background-color: #000;
+  margin-bottom: 10px; }
