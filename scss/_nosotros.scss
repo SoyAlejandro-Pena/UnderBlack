@@ -1,10 +1,26 @@
  .mainNosotros{
-   
-  .formulario {
-    .datos {
-      input, textarea {
-        width: 160%;
-      }
+  .colImgCuadro{
+    img {
+      width: 312px;
+      height: 312px;
+      left: 607px;
+      top: 196px
     }
   }
- }
+  .colTextoPresentacion {
+    width: 560px;
+    p{
+      font-size: 18px;
+    }
+  }
+  form {
+    font-size: 24px;
+    label {
+      font-weight: bold;
+    }
+    .btn-enviar{
+      width: 100%;
+      box-shadow: 0.1px 6px 17px -9px #000;
+    }
+  }
+}
