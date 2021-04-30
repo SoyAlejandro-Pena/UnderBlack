@@ -1,11 +1,22 @@
 * {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
-
+// INDEX
 @import "header";
-@import "main";
 @import "footer";
+
+//SECCIONES
+@import "index";
+@import "nosotros";
+@import "comoComprar";
+
+// SECCION PRODUCTOS
+  //SUB SECCIONES
+    @import "corpinosTriangulos";
+      @import "berenice";
+        @import "estilosPersonaliza";
+
 
 

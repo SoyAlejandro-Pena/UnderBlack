@@ -1,0 +1,12 @@
+@import "_mixin";
+
+
+.mainCorpinosTriangulitos{
+    .colProductos {
+        .cardBody-Borde {
+            border: solid 1px #000;
+            box-shadow: 0.1px 10px 17px -9px #000;
+        }
+    }
+    
+}

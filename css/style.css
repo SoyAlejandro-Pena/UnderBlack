@@ -3,84 +3,53 @@
   padding: 0px;
   margin: 0px; }
 
-.col.colH1-Center, .contenedorPreguntas .colPreguntas, .contenedorPreguntas .colPreguntasDre {
+.mainIndex .col.colH1-Center, .mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.contenedorPreguntas .colPreguntas, .contenedorPreguntas .colPreguntasDre {
+.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   text-align: center;
   margin-bottom: 20px;
   height: 80%; }
 
-header {
+.headerIndex {
   height: 1000px;
   background-color: #F2F4F4;
   font-size: 24px; }
-  header .mayorista {
+  .headerIndex .mayorista {
     color: #fff;
     background-color: #000;
     height: 30px; }
-    header .mayorista h3 {
+    .headerIndex .mayorista h3 {
       font-size: 20px;
       margin-top: 1px; }
-  header .container-fluid {
+  .headerIndex .container-fluid {
     width: 35%; }
-    header .container-fluid a {
+    .headerIndex .container-fluid a {
       color: #000; }
 
-.col.colH1-Center, .contenedorPreguntas .colPreguntas, .contenedorPreguntas .colPreguntasDre {
+.header {
+  background-color: #F2F4F4;
+  font-size: 24px; }
+  .header .mayorista {
+    color: #fff;
+    background-color: #000;
+    height: 30px; }
+    .header .mayorista h3 {
+      font-size: 20px;
+      margin-top: 1px; }
+  .header .container-fluid {
+    width: 35%; }
+    .header .container-fluid a {
+      color: #000; }
+
+.mainIndex .col.colH1-Center, .mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.contenedorPreguntas .colPreguntas, .contenedorPreguntas .colPreguntasDre {
-  text-align: center;
-  margin-bottom: 20px;
-  height: 80%; }
-
-.col.colH1-Center {
-  height: 100px; }
-
-.carousel-indicators {
-  margin-bottom: 0; }
-
-.carouselProductos {
-  justify-content: center; }
-
-.contenedorPreguntas {
-  margin-top: 50px;
-  margin-bottom: 70px;
-  height: 200px; }
-  .contenedorPreguntas .rowPreguntas {
-    width: 80%; }
-  .contenedorPreguntas .colPreguntas {
-    border-right: solid 1px #000; }
-  .contenedorPreguntas .colPreguntas .btn-Encuadro, .contenedorPreguntas .colPreguntasDre .btn-Encuadro {
-    padding: 40px 30px;
-    width: 240px;
-    height: 150px;
-    font-size: 20px;
-    margin: 0px 20px;
-    box-shadow: 0.1px 10px 17px -9px #000; }
-
-.cInsta {
-  margin-bottom: 20px;
-  height: 140px; }
-  .cInsta .colUserInsta {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .cInsta .colUserInsta .pUserInsta {
-      font-size: 40px;
-      margin-bottom: 2px; }
-
-.col.colH1-Center, .contenedorPreguntas .colPreguntas, .contenedorPreguntas .colPreguntasDre {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.contenedorPreguntas .colPreguntas, .contenedorPreguntas .colPreguntasDre {
+.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   text-align: center;
   margin-bottom: 20px;
   height: 80%; }
@@ -89,3 +58,125 @@ header {
   height: 100px;
   background-color: #000;
   margin-bottom: 10px; }
+
+.mainIndex .col.colH1-Center, .mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 80%; }
+
+.mainIndex .col.colH1-Center {
+  height: 100px; }
+
+.mainIndex .carousel-indicators {
+  margin-bottom: 0; }
+
+.mainIndex .carouselProductos {
+  justify-content: center; }
+
+.mainIndex .contenedorPreguntas {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  height: 200px; }
+  .mainIndex .contenedorPreguntas .rowPreguntas {
+    width: 80%; }
+  .mainIndex .contenedorPreguntas .colPreguntas {
+    border-right: solid 1px #000; }
+  .mainIndex .contenedorPreguntas .colPreguntas .btn-Encuadro, .mainIndex .contenedorPreguntas .colPreguntasDre .btn-Encuadro {
+    padding: 40px 30px;
+    width: 240px;
+    height: 150px;
+    font-size: 20px;
+    margin: 0px 20px;
+    box-shadow: 0.1px 10px 17px -9px #000; }
+
+.mainIndex .cInsta {
+  margin-bottom: 20px;
+  height: 140px; }
+  .mainIndex .cInsta .colUserInsta {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .mainIndex .cInsta .colUserInsta .pUserInsta {
+      font-size: 40px;
+      margin-bottom: 2px; }
+
+.mainNosotros .formulario .datos input, .mainNosotros .formulario .datos textarea {
+  width: 160%; }
+
+.mainComoComprar {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .mainComoComprar .contenedorNumeros {
+    margin-bottom: 30px; }
+  .mainComoComprar .imgCirculos {
+    width: 76%;
+    margin-left: 45px; }
+
+.mainIndex .col.colH1-Center, .mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 80%; }
+
+.mainCorpinosTriangulitos .colProductos .cardBody-Borde {
+  border: solid 1px #000;
+  box-shadow: 0.1px 10px 17px -9px #000; }
+
+.mainBerenice h2 {
+  font-family: sans-serif;
+  font-size: 36px;
+  line-height: 20px;
+  color: #000; }
+
+.mainBerenice .colCodigo {
+  width: 308px;
+  height: 112px;
+  left: 25px;
+  top: 608px;
+  padding-top: 10px;
+  border: 2px solid #000000;
+  box-sizing: border-box; }
+  .mainBerenice .colCodigo p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 0; }
+
+.mainBerenice .colTela {
+  width: 60px;
+  height: 60px;
+  left: 357px;
+  top: 420px;
+  background: #C4C4C4; }
+
+.mainBerenice .divBtn {
+  height: 120px;
+  justify-content: flex-end;
+  align-items: flex-end; }
+  .mainBerenice .divBtn .btnLoQuiero {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    margin-right: 60px;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.mainPersonaliza .h1-center {
+  font-size: 36px;
+  line-height: 45px; }

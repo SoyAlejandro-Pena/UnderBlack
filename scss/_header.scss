@@ -1,7 +1,26 @@
 @import "_mixin";
 
-header{ 
+.headerIndex{ 
     height:1000px;
+    background-color: #F2F4F4;
+    font-size: 24px;
+    .mayorista {
+        color: #fff;
+        background-color: #000;
+        height: 30px;
+        h3 {
+            font-size: 20px;
+            margin-top:1px;
+        }
+    }
+    .container-fluid {
+        width: 35%;
+        a {
+            color: #000;
+        }
+    }
+}
+.header{
     background-color: #F2F4F4;
     font-size: 24px;
     .mayorista {

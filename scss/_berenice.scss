@@ -1,0 +1,52 @@
+.mainBerenice {
+    h2 {
+        font-family: sans-serif;
+        font-size: 36px;
+        line-height: 20px;
+        color: #000;
+    }
+    
+    .colCodigo{
+        width: 308px;
+        height: 112px;
+        left: 25px;
+        top: 608px;
+        padding-top: 10px;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        p {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 23px;
+            margin-bottom: 0;
+        }
+    }
+    
+    .colTela{
+        width: 60px;
+        height: 60px;
+        left: 357px;
+        top: 420px;
+        background: #C4C4C4;
+    }
+    
+    .divBtn {
+        height: 120px;
+        justify-content: flex-end;
+        align-items: flex-end;
+        .btnLoQuiero{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 200px;
+            height: 40px;
+            margin-right: 60px;
+            border-radius: 8px;
+            font-size: 20px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    }
+}
+
