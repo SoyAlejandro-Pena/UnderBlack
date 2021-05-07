@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: 'Merriweather Sans', sans-serif;
   box-sizing: border-box;
@@ -17,7 +18,7 @@
 .headerIndex {
   height: 100vh;
   background-color: #F2F4F4;
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Merriweather Sans', sans-serif; }
   .headerIndex .mayorista {
     color: #fff;
@@ -30,12 +31,15 @@
     width: 35%; }
     .headerIndex .container-fluid a {
       color: #000; }
+      .headerIndex .container-fluid a img {
+        width: 80px;
+        height: 60px; }
     .headerIndex .container-fluid .ultimoA {
       width: 50vh; }
 
 .header {
   background-color: #F2F4F4;
-  font-size: 24px; }
+  font-size: 20px; }
   .header .mayorista {
     color: #fff;
     background-color: #000;
@@ -47,6 +51,9 @@
     width: 35%; }
     .header .container-fluid a {
       color: #000; }
+      .header .container-fluid a img {
+        width: 80px;
+        height: 60px; }
     .header .container-fluid .ultimoA {
       width: 50vh; }
 
@@ -225,10 +232,32 @@
     border-radius: 8px;
     font-size: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+    .mainBerenice .divBtn .btnLoQuiero a {
+      text-decoration: none;
+      color: #fff; }
 
 .mainPersonaliza .h1-center {
   font-size: 36px;
   line-height: 45px; }
 
 .mainPersonaliza .btn-Continuar {
-  width: 100%; }
+  width: 100%;
+  box-shadow: 0.1px 10px 17px -9px #000; }
+
+.mainPersonaliza .guardamosInfo-P {
+  width: 50%; }
+
+.mainPersonaliza .rowGuardamosInfoPara .guardamosInfo-icon {
+  width: 30px;
+  height: 30px; }
+
+.mainPersonaliza .rowGuardamosInfoPara p {
+  width: 70%; }
+
+.mainPersonaliza .col-tamaño {
+  width: 96px;
+  height: 45px;
+  left: 107px;
+  top: 680.13px;
+  font-size: 20px;
+  line-height: 45px; }

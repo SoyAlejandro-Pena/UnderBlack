@@ -1,9 +1,30 @@
 .mainPersonaliza {
-    .h1-center {
-        font-size: 36px;
-        line-height: 45px;
+  .h1-center {
+      font-size: 36px;
+      line-height: 45px;
+  }
+  .btn-Continuar {
+      width: 100%;
+      box-shadow: 0.1px 10px 17px -9px #000;
+  }
+  .guardamosInfo-P{
+    width: 50%;
+  }
+  .rowGuardamosInfoPara {
+    .guardamosInfo-icon {
+      width: 30px;
+      height: 30px;
     }
-    .btn-Continuar {
-        width: 100%;
+    p{
+      width: 70%;
     }
+  }
+  .col-tamaño {
+    width: 96px;
+    height: 45px;
+    left: 107px;
+    top: 680.13px;
+    font-size: 20px;
+    line-height: 45px;
+  }
 }
