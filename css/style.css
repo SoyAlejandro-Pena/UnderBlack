@@ -15,48 +15,31 @@
   margin-bottom: 20px;
   height: 80%; }
 
-.headerIndex {
-  height: 100vh;
-  background-color: #F2F4F4;
-  font-size: 20px;
-  font-family: 'Merriweather Sans', sans-serif; }
-  .headerIndex .mayorista {
-    color: #fff;
-    background-color: #000;
-    height: 30px; }
-    .headerIndex .mayorista h3 {
-      font-size: 20px;
-      margin-top: 1px; }
-  .headerIndex .container-fluid {
-    width: 35%; }
-    .headerIndex .container-fluid a {
-      color: #000; }
-      .headerIndex .container-fluid a img {
-        width: 80px;
-        height: 60px; }
-    .headerIndex .container-fluid .ultimoA {
-      width: 50vh; }
-
-.header {
+.headerIndex, .header {
   background-color: #F2F4F4;
   font-size: 20px; }
-  .header .mayorista {
+  .headerIndex .mayorista, .header .mayorista {
     color: #fff;
     background-color: #000;
     height: 30px; }
-    .header .mayorista h3 {
+    .headerIndex .mayorista h3, .header .mayorista h3 {
       font-size: 20px;
       margin-top: 1px; }
-  .header .container-fluid {
+  .headerIndex .container-fluid, .header .container-fluid {
     width: 35%; }
-    .header .container-fluid a {
+    .headerIndex .container-fluid a, .header .container-fluid a {
       color: #000; }
-      .header .container-fluid a img {
-        width: 80px;
+      .headerIndex .container-fluid a img, .header .container-fluid a img {
+        width: 120px;
         height: 60px; }
-    .header .container-fluid .ultimoA {
+    .headerIndex .container-fluid .li-sinEstilo, .header .container-fluid .li-sinEstilo {
+      list-style-type: none; }
+    .headerIndex .container-fluid .ultimoA, .header .container-fluid .ultimoA {
       width: 50vh; }
 
+.headerIndex {
+  height: 100vh; }
+
 .mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
   display: flex;
   justify-content: center;
@@ -66,11 +49,41 @@
   text-align: center;
   margin-bottom: 20px;
   height: 80%; }
+
+.headerIndex, .header {
+  background-color: #F2F4F4;
+  font-size: 20px; }
+  .headerIndex .mayorista, .header .mayorista {
+    color: #fff;
+    background-color: #000;
+    height: 30px; }
+    .headerIndex .mayorista h3, .header .mayorista h3 {
+      font-size: 20px;
+      margin-top: 1px; }
+  .headerIndex .container-fluid, .header .container-fluid {
+    width: 35%; }
+    .headerIndex .container-fluid a, .header .container-fluid a {
+      color: #000; }
+      .headerIndex .container-fluid a img, .header .container-fluid a img {
+        width: 120px;
+        height: 60px; }
+    .headerIndex .container-fluid .li-sinEstilo, .header .container-fluid .li-sinEstilo {
+      list-style-type: none; }
+    .headerIndex .container-fluid .ultimoA, .header .container-fluid .ultimoA {
+      width: 50vh; }
 
 .cRedes {
-  height: 100px;
-  background-color: #000;
+  height: 110px;
+  background-color: white;
   margin-bottom: 10px; }
+  .cRedes .rowRedes .colRedesIzq {
+    text-align: end; }
+  .cRedes .rowRedes a {
+    color: #fff;
+    text-decoration: none; }
+    .cRedes .rowRedes a:visited {
+      text-decoration: none;
+      color: #fff; }
 
 .mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
   display: flex;
@@ -81,6 +94,28 @@
   text-align: center;
   margin-bottom: 20px;
   height: 80%; }
+
+.headerIndex, .header {
+  background-color: #F2F4F4;
+  font-size: 20px; }
+  .headerIndex .mayorista, .header .mayorista {
+    color: #fff;
+    background-color: #000;
+    height: 30px; }
+    .headerIndex .mayorista h3, .header .mayorista h3 {
+      font-size: 20px;
+      margin-top: 1px; }
+  .headerIndex .container-fluid, .header .container-fluid {
+    width: 35%; }
+    .headerIndex .container-fluid a, .header .container-fluid a {
+      color: #000; }
+      .headerIndex .container-fluid a img, .header .container-fluid a img {
+        width: 120px;
+        height: 60px; }
+    .headerIndex .container-fluid .li-sinEstilo, .header .container-fluid .li-sinEstilo {
+      list-style-type: none; }
+    .headerIndex .container-fluid .ultimoA, .header .container-fluid .ultimoA {
+      width: 50vh; }
 
 .mainIndex {
   font-family: 'Merriweather Sans', sans-serif; }
@@ -171,9 +206,11 @@
   align-items: center; }
   .mainComoComprar .contenedorNumeros {
     margin-bottom: 30px; }
+    .mainComoComprar .contenedorNumeros .pComprar-width {
+      width: 52%; }
   .mainComoComprar .imgCirculos {
-    width: 76%;
-    margin-left: 45px; }
+    width: 74%;
+    margin-left: 20px; }
 
 .mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
   display: flex;
@@ -185,9 +222,49 @@
   margin-bottom: 20px;
   height: 80%; }
 
-.mainCorpinosTriangulitos .colProductos .cardBody-Borde {
-  border: solid 1px #000;
-  box-shadow: 0.1px 10px 17px -9px #000; }
+.headerIndex, .header {
+  background-color: #F2F4F4;
+  font-size: 20px; }
+  .headerIndex .mayorista, .header .mayorista {
+    color: #fff;
+    background-color: #000;
+    height: 30px; }
+    .headerIndex .mayorista h3, .header .mayorista h3 {
+      font-size: 20px;
+      margin-top: 1px; }
+  .headerIndex .container-fluid, .header .container-fluid {
+    width: 35%; }
+    .headerIndex .container-fluid a, .header .container-fluid a {
+      color: #000; }
+      .headerIndex .container-fluid a img, .header .container-fluid a img {
+        width: 120px;
+        height: 60px; }
+    .headerIndex .container-fluid .li-sinEstilo, .header .container-fluid .li-sinEstilo {
+      list-style-type: none; }
+    .headerIndex .container-fluid .ultimoA, .header .container-fluid .ultimoA {
+      width: 50vh; }
+
+.mainCorpinosTriangulitos .contCorpinos {
+  display: flex;
+  justify-content: center; }
+  .mainCorpinosTriangulitos .contCorpinos .rowCorpinos {
+    width: 78%; }
+
+.mainCorpinosTriangulitos .contProductos .rowProductos {
+  justify-content: center; }
+  .mainCorpinosTriangulitos .contProductos .rowProductos .colProductos {
+    width: 330px;
+    margin-bottom: 50px; }
+    .mainCorpinosTriangulitos .contProductos .rowProductos .colProductos a {
+      color: #000;
+      text-decoration: none; }
+      .mainCorpinosTriangulitos .contProductos .rowProductos .colProductos a:visited {
+        text-decoration: none;
+        color: #000; }
+      .mainCorpinosTriangulitos .contProductos .rowProductos .colProductos a .cardBody-Borde {
+        border: solid 1px #000;
+        color: #000;
+        box-shadow: 0.1px 10px 17px -9px #000; }
 
 .mainBerenice h2 {
   font-family: sans-serif;
@@ -243,6 +320,9 @@
 .mainPersonaliza .btn-Continuar {
   width: 100%;
   box-shadow: 0.1px 10px 17px -9px #000; }
+  .mainPersonaliza .btn-Continuar a {
+    color: #fff;
+    text-decoration: none; }
 
 .mainPersonaliza .guardamosInfo-P {
   width: 50%; }
@@ -261,3 +341,47 @@
   top: 680.13px;
   font-size: 20px;
   line-height: 45px; }
+
+.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 80%; }
+
+.headerIndex, .header {
+  background-color: #F2F4F4;
+  font-size: 20px; }
+  .headerIndex .mayorista, .header .mayorista {
+    color: #fff;
+    background-color: #000;
+    height: 30px; }
+    .headerIndex .mayorista h3, .header .mayorista h3 {
+      font-size: 20px;
+      margin-top: 1px; }
+  .headerIndex .container-fluid, .header .container-fluid {
+    width: 35%; }
+    .headerIndex .container-fluid a, .header .container-fluid a {
+      color: #000; }
+      .headerIndex .container-fluid a img, .header .container-fluid a img {
+        width: 120px;
+        height: 60px; }
+    .headerIndex .container-fluid .li-sinEstilo, .header .container-fluid .li-sinEstilo {
+      list-style-type: none; }
+    .headerIndex .container-fluid .ultimoA, .header .container-fluid .ultimoA {
+      width: 50vh; }
+
+.gracias .contGracias {
+  margin-top: 40px; }
+  .gracias .contGracias .rowGracias .colGraciasIzq {
+    background-image: url(../imgs/gifGracias.gif);
+    background-size: cover;
+    height: 600px; }
+  .gracias .contGracias .rowGracias .colGraciasDere {
+    display: flex;
+    align-items: center; }
+    .gracias .contGracias .rowGracias .colGraciasDere .rowTexto {
+      width: 70%; }

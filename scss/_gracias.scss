@@ -1,0 +1,21 @@
+@import "_mixin";
+
+.gracias {
+  .contGracias {
+    margin-top: 40px;
+    .rowGracias {
+      .colGraciasIzq {
+        background-image: url(../imgs/gifGracias.gif);   
+        background-size: cover;
+        height: 600px;
+     }
+     .colGraciasDere {
+       display: flex;
+       align-items:center;
+       .rowTexto{
+         width: 70%;
+       }
+     }
+    }
+  }
+}
