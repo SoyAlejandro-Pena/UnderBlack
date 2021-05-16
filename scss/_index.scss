@@ -1,26 +1,33 @@
 @import "mixin";
 
+
 .mainIndex {
   font-family: 'Merriweather Sans', sans-serif;
-  .carousel-indicators {
-    margin-bottom: 0;
+  .conElegidos{
+    .rowElegidos{
+      .colElegidos {
+        text-align: center;
+        height: 100px;
+        h1 {
+          hr {
+            width: 75%;
+            margin: auto;
+            border: 1px solid #000;
+            opacity: 1;
+          }
+        }
+      }
+    }
   }
-  
-  .carouselProductos {
-    justify-content: center;
-  }
-  
+
   .contenedorPreguntas {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 70px;
     height: 200px;
     .rowPreguntas {
       width: 80%;
     }
   
-    .colPreguntas{
-      border-right: solid 1px #000;
-    }
     .colPreguntas, .colPreguntasDre  {
       @extend %CentrarContenido;
       @extend %estilosBonotes; 
@@ -35,7 +42,32 @@
       }
     }
   }
-  
+
+  .contCarusel {
+    .rowCarusel{
+      .carousel-indicators{
+        left: 0;
+        top: auto;
+        bottom: -70px;
+        button {
+          background-color: #000;
+          border-radius: 50%;
+          width: 15px;
+          height: 15px;
+        }
+      }
+      .carousel-item {
+        img {
+          width: 100%;
+          height: 300px;
+        }
+      }
+      .btn-negro {
+        color: #000;
+      }
+    }
+  }
+
   .cInsta {
     margin-bottom: 20px;
     height: 140px;
@@ -49,58 +81,7 @@
       }
     }
   }
-  
-  .col.colH1-Center {
-    @extend %CentrarContenido;
-    height: 100px;
-    .carousel-indicators {
-      margin-bottom: 0;
-    }
-    
-    .carouselProductos {
-      justify-content: center;
-    }
-    
-    .contenedorPreguntas {
-      margin-top: 50px;
-      margin-bottom: 70px;
-      height: 200px;
-      .rowPreguntas {
-        width: 80%;
-      }
-    
-      .colPreguntas{
-        border-right: solid 1px #000;
-      }
-      .colPreguntas, .colPreguntasDre  {
-        @extend %CentrarContenido;
-        @extend %estilosBonotes; 
-    
-        .btn-Encuadro {
-          padding: 40px 30px;
-          width: 240px;
-          height: 150px;
-          font-size: 20px;
-          margin: 0px 20px;
-          box-shadow: 0.1px 10px 17px -9px #000;
-        }
-      }
-    }
-    
-    .cInsta {
-      margin-bottom: 20px;
-      height: 140px;
-      .colUserInsta{ 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .pUserInsta{ 
-          font-size: 40px;
-          margin-bottom: 2px;
-        }
-      }
-    }
-  }  
-}
+}  
+
 
 

@@ -13,16 +13,20 @@ $colorNav: white;
 // Header
 
 %header{
-   background-color: #F2F4F4;
+  background-color: #F2F4F4;
   font-size: 20px;
   .mayorista {
     color: #fff;
     background-color: #000;
-    height: 30px;
+    height: 40px;
+    @extend %CentrarContenido;
       h3 {
         font-size: 20px;
         margin-top:1px;
       }
+  }
+  .nav-ColorRgba {
+    background-color: rgba(255, 255, 255, .5);
   }
   .container-fluid {
     width: 35%;

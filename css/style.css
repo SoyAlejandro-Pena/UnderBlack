@@ -5,12 +5,12 @@
   padding: 0px;
   margin: 0px; }
 
-.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
+.headerIndex .mayorista, .header .mayorista, .mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
+.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   text-align: center;
   margin-bottom: 20px;
   height: 80%; }
@@ -21,10 +21,12 @@
   .headerIndex .mayorista, .header .mayorista {
     color: #fff;
     background-color: #000;
-    height: 30px; }
+    height: 40px; }
     .headerIndex .mayorista h3, .header .mayorista h3 {
       font-size: 20px;
       margin-top: 1px; }
+  .headerIndex .nav-ColorRgba, .header .nav-ColorRgba {
+    background-color: rgba(255, 255, 255, 0.5); }
   .headerIndex .container-fluid, .header .container-fluid {
     width: 35%; }
     .headerIndex .container-fluid a, .header .container-fluid a {
@@ -38,14 +40,17 @@
       width: 50vh; }
 
 .headerIndex {
+  background-image: url(../imgs/productos/portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh; }
 
-.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
+.headerIndex .mayorista, .header .mayorista, .mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
+.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   text-align: center;
   margin-bottom: 20px;
   height: 80%; }
@@ -56,10 +61,12 @@
   .headerIndex .mayorista, .header .mayorista {
     color: #fff;
     background-color: #000;
-    height: 30px; }
+    height: 40px; }
     .headerIndex .mayorista h3, .header .mayorista h3 {
       font-size: 20px;
       margin-top: 1px; }
+  .headerIndex .nav-ColorRgba, .header .nav-ColorRgba {
+    background-color: rgba(255, 255, 255, 0.5); }
   .headerIndex .container-fluid, .header .container-fluid {
     width: 35%; }
     .headerIndex .container-fluid a, .header .container-fluid a {
@@ -85,12 +92,12 @@
       text-decoration: none;
       color: #fff; }
 
-.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
+.headerIndex .mayorista, .header .mayorista, .mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
+.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   text-align: center;
   margin-bottom: 20px;
   height: 80%; }
@@ -101,10 +108,12 @@
   .headerIndex .mayorista, .header .mayorista {
     color: #fff;
     background-color: #000;
-    height: 30px; }
+    height: 40px; }
     .headerIndex .mayorista h3, .header .mayorista h3 {
       font-size: 20px;
       margin-top: 1px; }
+  .headerIndex .nav-ColorRgba, .header .nav-ColorRgba {
+    background-color: rgba(255, 255, 255, 0.5); }
   .headerIndex .container-fluid, .header .container-fluid {
     width: 35%; }
     .headerIndex .container-fluid a, .header .container-fluid a {
@@ -119,18 +128,20 @@
 
 .mainIndex {
   font-family: 'Merriweather Sans', sans-serif; }
-  .mainIndex .carousel-indicators {
-    margin-bottom: 0; }
-  .mainIndex .carouselProductos {
-    justify-content: center; }
+  .mainIndex .conElegidos .rowElegidos .colElegidos {
+    text-align: center;
+    height: 100px; }
+    .mainIndex .conElegidos .rowElegidos .colElegidos h1 hr {
+      width: 75%;
+      margin: auto;
+      border: 1px solid #000;
+      opacity: 1; }
   .mainIndex .contenedorPreguntas {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 70px;
     height: 200px; }
     .mainIndex .contenedorPreguntas .rowPreguntas {
       width: 80%; }
-    .mainIndex .contenedorPreguntas .colPreguntas {
-      border-right: solid 1px #000; }
     .mainIndex .contenedorPreguntas .colPreguntas .btn-Encuadro, .mainIndex .contenedorPreguntas .colPreguntasDre .btn-Encuadro {
       padding: 40px 30px;
       width: 240px;
@@ -138,6 +149,20 @@
       font-size: 20px;
       margin: 0px 20px;
       box-shadow: 0.1px 10px 17px -9px #000; }
+  .mainIndex .contCarusel .rowCarusel .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -70px; }
+    .mainIndex .contCarusel .rowCarusel .carousel-indicators button {
+      background-color: #000;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px; }
+  .mainIndex .contCarusel .rowCarusel .carousel-item img {
+    width: 100%;
+    height: 300px; }
+  .mainIndex .contCarusel .rowCarusel .btn-negro {
+    color: #000; }
   .mainIndex .cInsta {
     margin-bottom: 20px;
     height: 140px; }
@@ -148,37 +173,6 @@
       .mainIndex .cInsta .colUserInsta .pUserInsta {
         font-size: 40px;
         margin-bottom: 2px; }
-  .mainIndex .col.colH1-Center {
-    height: 100px; }
-    .mainIndex .col.colH1-Center .carousel-indicators {
-      margin-bottom: 0; }
-    .mainIndex .col.colH1-Center .carouselProductos {
-      justify-content: center; }
-    .mainIndex .col.colH1-Center .contenedorPreguntas {
-      margin-top: 50px;
-      margin-bottom: 70px;
-      height: 200px; }
-      .mainIndex .col.colH1-Center .contenedorPreguntas .rowPreguntas {
-        width: 80%; }
-      .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas {
-        border-right: solid 1px #000; }
-      .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas .btn-Encuadro, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre .btn-Encuadro {
-        padding: 40px 30px;
-        width: 240px;
-        height: 150px;
-        font-size: 20px;
-        margin: 0px 20px;
-        box-shadow: 0.1px 10px 17px -9px #000; }
-    .mainIndex .col.colH1-Center .cInsta {
-      margin-bottom: 20px;
-      height: 140px; }
-      .mainIndex .col.colH1-Center .cInsta .colUserInsta {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        .mainIndex .col.colH1-Center .cInsta .colUserInsta .pUserInsta {
-          font-size: 40px;
-          margin-bottom: 2px; }
 
 .mainNosotros .colImgCuadro img {
   width: 312px;
@@ -212,12 +206,12 @@
     width: 74%;
     margin-left: 20px; }
 
-.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
+.headerIndex .mayorista, .header .mayorista, .mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
+.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   text-align: center;
   margin-bottom: 20px;
   height: 80%; }
@@ -228,10 +222,12 @@
   .headerIndex .mayorista, .header .mayorista {
     color: #fff;
     background-color: #000;
-    height: 30px; }
+    height: 40px; }
     .headerIndex .mayorista h3, .header .mayorista h3 {
       font-size: 20px;
       margin-top: 1px; }
+  .headerIndex .nav-ColorRgba, .header .nav-ColorRgba {
+    background-color: rgba(255, 255, 255, 0.5); }
   .headerIndex .container-fluid, .header .container-fluid {
     width: 35%; }
     .headerIndex .container-fluid a, .header .container-fluid a {
@@ -342,12 +338,12 @@
   font-size: 20px;
   line-height: 45px; }
 
-.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
+.headerIndex .mayorista, .header .mayorista, .mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntas, .mainIndex .col.colH1-Center .contenedorPreguntas .colPreguntasDre {
+.mainIndex .contenedorPreguntas .colPreguntas, .mainIndex .contenedorPreguntas .colPreguntasDre {
   text-align: center;
   margin-bottom: 20px;
   height: 80%; }
@@ -358,10 +354,12 @@
   .headerIndex .mayorista, .header .mayorista {
     color: #fff;
     background-color: #000;
-    height: 30px; }
+    height: 40px; }
     .headerIndex .mayorista h3, .header .mayorista h3 {
       font-size: 20px;
       margin-top: 1px; }
+  .headerIndex .nav-ColorRgba, .header .nav-ColorRgba {
+    background-color: rgba(255, 255, 255, 0.5); }
   .headerIndex .container-fluid, .header .container-fluid {
     width: 35%; }
     .headerIndex .container-fluid a, .header .container-fluid a {

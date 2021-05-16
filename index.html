@@ -32,11 +32,11 @@
           </div>
         </div>
       </div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center">
+      <nav class="navbar navbar-expand-lg d-flex justify-content-center nav-ColorRgba">
         <div class="container-fluid">
           <div class="col">
             <a class="navbar-brand" href="index.html">
-              <img src="imgs/FD.jpg" alt="logoLiliUnderBlack" width="30" height="24">
+              <img src="imgs/logo.jpg" alt="logoLiliUnderBlack" width="30" height="24">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -97,94 +97,102 @@
     <main class="mainIndex">
 
       <!-- NUESTROS ELEGIDOS -->
-      <div class="container">
-        <div class="row">
-          <div class="col colH1-Center">
-            <h1>
+      <div class="container conElegidos my-5">
+        <div class="row rowElegidos">
+          <div class="col-12 colElegidos">
+            <h1 class="my-3">
               Nuestros elegidos
+              <hr class="my-4">
             </h1>
           </div>
-          <hr>
         </div>
       </div>
-
-      
 
       <!------------->
       <!-- CARUSEL -->
       <!------------->
 
-      <div class="container">
-        <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <div class="container contCarusel">
+        <div class="row rowCarusel">
+          <div class="col-md-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner ">
+                <div class="carousel-item active">
+                  <div class="row d-flex justify-content-evenly">
+                    <div class="card mx-4" style="width: 18rem;">
+                      <div class="tamañoImg">
+                        <img class="card-img-top p-3" src="imgs/productos/1.jpg" alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Nombre</h5>
+                        <p class="card-text">Precio</p>
+                      </div>
+                    </div>
+                    <div class="card mx-4" style="width: 18rem;">
+                      <img class="card-img-top p-3" src="imgs/productos/6.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Nombre</h5>
+                        <p class="card-text">Precio</p>
+                      </div>
+                    </div>
+                    <div class="card mx-4" style="width: 18rem;">
+                      <img class="card-img-top p-3" src="imgs/productos/3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Nombre</h5>
+                        <p class="card-text">Precio</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row d-flex justify-content-evenly">
+                    <div class="card mx-4" style="width: 18rem;">
+                      <img class="card-img-top p-3" src="imgs/productos/4.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Nombre</h5>
+                        <p class="card-text">Precio</p>
+                      </div>
+                    </div>
+                    <div class="card mx-4" style="width: 18rem;">
+                      <img class="card-img-top p-3" src="imgs/productos/5.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Nombre</h5>
+                        <p class="card-text">Precio</p>
+                      </div>
+                    </div>
+                    <div class="card mx-4" style="width: 18rem;">
+                      <img class="card-img-top p-3" src="imgs/productos/2.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Nombre</h5>
+                        <p class="card-text">Precio</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <button class="carousel-control-prev btn-negro" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next btn-negro" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="card mx-4" style="width: 18rem;">
-                <img class="card-img-top p-3" src="https://fakeimg.pl/300x300/000000/" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">jjj</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div> 
-            <div class="carousel-item">
-              <div class="card mx-4" style="width: 18rem;">
-                <img class="card-img-top p-3" src="https://fakeimg.pl/300x300/000000/" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Puta</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>  
-            <div class="carousel-item">
-              <div class="card mx-4" style="width: 18rem;">
-                <img class="card-img-top p-3" src="https://fakeimg.pl/300x300/000000/" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Puta</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div> 
-            <div class="carousel-item">
-              <div class="card mx-4" style="width: 18rem;">
-                <img class="card-img-top p-3" src="https://fakeimg.pl/300x300/000000/" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Puta</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div> 
-            <div class="carousel-item">
-              <div class="card mx-4" style="width: 18rem;">
-                <img class="card-img-top p-3" src="https://fakeimg.pl/300x300/000000/" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Puta</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>            
-            
-            
-          
-            
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
+            
 
       <!-- COLUMNAS PREGUNTAS -->
 
-      <div class=" d-flex justify-content-center contenedorPreguntas">
+      <div class="container  d-flex justify-content-center contenedorPreguntas">
         <div class="row rowPreguntas">
           <div class="col col-xl-3 col-12 col-sm-6 colPreguntas">
             <button class="btn btn-Encuadro" id="cuidarPrendas">
@@ -210,7 +218,6 @@
       </div>
 
       <!-- USER DE INSTA -->
-
       <div class="container cInsta">
         <div class="row rInsta">
           <div class="col colUserInsta">
@@ -225,6 +232,7 @@
           </div>
         </div>
       </div>
+      
     </main>
 
 
